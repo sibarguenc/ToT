@@ -1,7 +1,8 @@
 import React from 'react';
 import { Font } from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
-import { Header } from './src/components/common/Header.js';
+import { Button } from './src/components/common';
+import { Router } from './Router';
 
 export default class App extends React.Component {
   state = {
@@ -21,9 +22,8 @@ async componentDidMount() {
   render() {
     return (
       <View style={styles.container}>
-
           {
-            this.state.fontLoaded ? ( <Header headerText="Tread on Trump" /> ) : null
+            this.state.fontLoaded ? ( <Router />) : null
           }
 
         </View>
@@ -34,6 +34,6 @@ async componentDidMount() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
   }
 });
