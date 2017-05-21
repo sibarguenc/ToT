@@ -2,6 +2,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+
 //Make component
 const Header = (props) => {
 
@@ -21,11 +22,12 @@ const styles = {
     alignItems: 'center',
     paddingTop: 30,
     elevation: 2,
-    position: 'relative'
+    position: 'relative',
   },
   textStyle: {
     fontSize: 25,
-    color: '#000'
+    color: '#000',
+    fontFamily: 'kanit-medium'
   }
 };
 
