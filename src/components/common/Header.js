@@ -16,19 +16,15 @@ const Header = (props) => {
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#eeeeee',
+    backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 60,
-    paddingTop: 15,
-    shadowColor: '#000',
-    shadowOffset: {width: 0, height: 2},
-    shadowOpacity: 0.2,
+    paddingTop: 30,
     elevation: 2,
     position: 'relative'
   },
   textStyle: {
-    fontSize: 30,
+    fontSize: 25,
     color: '#000'
   }
 };
